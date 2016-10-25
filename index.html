@@ -20,12 +20,16 @@
         </ul>
       </nav>
       <h1 class="text-center titre-principal">Hello World !</h1>
-      <a href="#" class="liencentre"><i class="fa fa-chevron-down" aria-hidden="true"></i></a>
+      <a href="#" class="liencentre descente"><i class="fa fa-chevron-down" aria-hidden="true"></i></a>
     </header>
+
+    <section id="illustration" class="documentsections">
+      <a href="#" class="liencentre descente"><i class="fa fa-chevron-down" aria-hidden="true"></i></a>
+    </section>
 
     <section id="apropos" class="documentsections">
       <h2 class="text-center">A propos</h2>
-      <div class="row" style="outline: 1px dashed #C00;">
+      <div class="row">
         <article class="text-center large-4 columns">
           <img src="assets/images/spontanne.png" alt="">
           <h3>Passionné</h3>
@@ -55,7 +59,7 @@
     </section>
 
 
-    <section class="documentsections" style="background-color: #C00;">
+    <section class="documentsections">
       <h2 class="text-center">Portfolio</h2>
       <div class="row collapse large-up-4">
         <figure class="columns"><img src="http://placehold.it/350x350" alt=""></figure>
@@ -67,9 +71,93 @@
         <figure class="columns"><img src="http://placehold.it/350x350" alt=""></figure>
         <figure class="columns"><img src="http://placehold.it/350x350" alt=""></figure>
       </div>
-      <a href="#" class="liencentre"><i class="fa fa-chevron-down" aria-hidden="true"></i></a>
+      <a href="#" class="liencentre descente"><i class="fa fa-chevron-down" aria-hidden="true"></i></a>
     </section>
 
+  <section id="blog" class="documentsections">
+    <h2 class="text-center">Blog</h2>
+    <div class="row text-center">
+      <article class="large-4 columns">
+        <img src="http://placehold.it/420x190" alt="">
+        <h3>1er article</h3>
+        <time>30/07/2016</time>
+        <div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis, minus sunt quibusdam velit dignissimos molestias. Repudiandae laborum officiis dolorem asperiores vel iste sed nam error culpa odit. Nihil, adipisci est.</p>
+          <p>Sunt nisi dolorum expedita et, laborum consequatur culpa facilis, sit dolores tempora quo iusto cumque distinctio laboriosam dicta nesciunt necessitatibus maiores error fugiat? Recusandae ipsa ex eius voluptate dolorum unde.</p>
+        </div>
+      </article>
+      <article class="large-4 columns">
+        <img src="http://placehold.it/420x190" alt="">
+        <h3>2ème article</h3>
+        <time>26/07/2016</time>
+        <div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis, eius, consequuntur. Ducimus voluptate natus dicta, pariatur reprehenderit provident a, eligendi soluta tempora architecto ad modi dolor cupiditate reiciendis fuga possimus.</p>
+          <p>Provident aspernatur doloribus optio enim autem eum porro placeat ullam vero unde similique id, officia, dignissimos nesciunt natus magni laudantium! A perferendis omnis delectus commodi expedita natus, corporis eligendi voluptate.</p>
+        </div>
+      </article>
+      <article class="large-4 columns">
+        <img src="http://placehold.it/420x190" alt="">
+        <h3>3ème article</h3>
+        <time>19/07/16</time>
+        <div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad, tenetur maxime doloribus voluptatum fugit corporis, odit sint beatae iusto cupiditate ullam nesciunt. Officiis nihil voluptas necessitatibus maxime fugiat molestias aliquam.</p>
+          <p>Facilis nam ipsum sint nisi sapiente beatae consequuntur sed maiores quidem perferendis, ullam asperiores quaerat, omnis natus quia dolor, perspiciatis dignissimos architecto dicta dolorum libero molestias porro. Laborum, modi iste!</p>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section id="form" class="documentsections">
+    <h2 class="text-center">Contact</h2>
+    <form action="">
+      <div class="row">
+        <p class="large-offset-2 large-4 columns">
+          <label for="">Prénom</label>
+          <input type="text" name="prenom">
+        </p>
+        <p class="large-4 columns end">
+          <label for="">Nom</label>
+          <input type="text" name="nom">
+        </p>
+      </div>
+      <div class="row">
+        <p class="large-offset-2 large-4 columns">
+          <label for="">Email</label>
+          <input type="text" name="email">
+        </p>
+        <p class="large-4 columns end">
+          <label for="">Mobile</label>
+          <input type="text" name="mobile">
+        </p>
+      </div>
+      <div class="row">
+        <div class="large-8 large-offset-2 columns">
+          <label for="message">Message</label>
+          <textarea name="Message" id="" cols="30" rows="10"></textarea>
+        </div>
+      </div>
+      <div class="row">
+        <p class="large-offset-2 large-1 columns">
+          <a href="#" class="liencentre"><i class="fa fa-chevron-up" aria-hidden="true"></i></a>
+        </p>
+        <p class="large-offset-5 large-2 columns end">
+          <input class="expanded hollow button" type="submit" value="ENVOYER">
+        </p>
+      </div>
+    </form>
+  </section>
+
+
+  <footer id="socialnetwork" class="row">
+    <div class="large-4 columns text-center">Cousu main avec amour @2016</div>
+    <div class="large-offset-6 large-2 columns">
+      <ul class="menu social">
+        <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+        <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+        <li><a href="#"><i class="fa fa-vimeo" aria-hidden="true"></i></a></li>
+      </ul>
+    </div>
+  </footer>
 
     <script src="bower_components/jquery/dist/jquery.js"></script>
     <script src="bower_components/what-input/what-input.js"></script>
